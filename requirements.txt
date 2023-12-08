@@ -6,4 +6,4 @@ pymysql
 cryptography
 streamlit
 sentence-transformers
-chormadb
+chromadb
