@@ -7,7 +7,7 @@ few_shots = [
      where patient.name = "Robinson" 
      """,
      'SQLResult': "Result of the SQL query",
-     'Answer' : "85000"},
+     'Answer' : "The total bill of the given patient is 85000"},
     {'Question': "Who supervises nurse Wilkie",
      'SQLQuery':"""select staffname from staff 
      where staffno in 
@@ -45,7 +45,7 @@ few_shots = [
         where r.billno is null
  """,
      'SQLResult': "Result of the SQL query",
-     'Answer' : "72000.50"
+     'Answer' : "The total amount of money that was billed and still not paid is 72000.50"
     }
 ]
 

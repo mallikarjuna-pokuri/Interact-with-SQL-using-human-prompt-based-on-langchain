@@ -63,6 +63,4 @@ class fewShotPromptTemplate:
 
 
 
-if __name__ == "__main__":
-    example_selector = vectorDB().build()
-    print(example_selector.select_examples({"Question": "Tell me about the doctor of patient Bell"}))
+

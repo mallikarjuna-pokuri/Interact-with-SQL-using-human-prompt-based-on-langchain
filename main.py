@@ -11,5 +11,4 @@ few_shot_prompt = few_shot_temp.prompt()
 
 llm = GooglePalm(temperature = 0.1)
 
-chain = SQLDatabaseChain.from_llm(llm = llm,db= sqldb, verbose=True, prompt=few_shot_prompt)
-print(chain.run("Tell me about the doctor of patient Bell"))
+chain = SQLDatabaseChain.from_llm(llm = llm,db= sqldb, verbose=True, prompt=few_shot_prompt,return_intermediate_steps = True)

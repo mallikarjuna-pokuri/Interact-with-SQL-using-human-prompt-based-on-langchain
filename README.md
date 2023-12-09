@@ -1,6 +1,6 @@
 # SQLChat: Conversational SQL Interface
 
-Welcome to PostgresChat, your conversational interface to interact seamlessly with a SQL database using LangChain.
+Welcome to SQLChat, your conversational interface to interact seamlessly with a SQL database using LangChain.
 
 ## Overview
 
